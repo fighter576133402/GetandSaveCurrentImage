@@ -1,7 +1,5 @@
 package cn.wangjianlog.getandsavecurrentimage;
 
-import cn.wangjianlog.getandsavecurrentimage.util.ScreenshotTools;
-import cn.wangjianlog.getandsavecurrentimage.util.Util;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -9,9 +7,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
 import android.widget.Button;
+import cn.wangjianlog.getandsavecurrentimage.util.ScreenshotTools;
 
 
 public class MainActivity extends ActionBarActivity implements OnTouchListener{
